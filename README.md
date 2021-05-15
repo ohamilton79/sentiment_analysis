@@ -35,3 +35,12 @@ python batch_test.py 'path_to_weights_file'
 ```
 python individual_test.py 'input_sentence' 'path_to_weights_file'
 ```
+
+## Examples
+```python
+>>> python individual_test.py 'This movie is appalling. Waste of 2 hours of my life!' 'data/weights-2.hdf5'
+Predicted: [[0.04231749]]
+>>> python individual_test.py 'This movie is great. I loved the plot and characters!' 'data/weights-2.hdf5'
+Predicted: [[0.8849266]]
+>>> python individual_test.py "My friends liked this movie, but I wasn't keen on the main character" 'data/weights-2.hdf5'
+Predicted: [[0.76930517]]
