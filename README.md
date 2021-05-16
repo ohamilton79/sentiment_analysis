@@ -22,15 +22,15 @@ python cnn_train.py
 ```
 
 ## Testing
-* To test the model on the testing data provided by the IMDb dataset, run the following, specifying:
-* * The location of the weights file you want to use relative to the working directory:
+To test the model on the testing data provided by the IMDb dataset, run the following, specifying:
+* The location of the weights file you want to use relative to the working directory:
 (`data/weights-2.hdf5` is the recommended value for the `path_to_weights_file` parameter)
 ```
 python batch_test.py 'path_to_weights_file'
 ```
-* To test the model's output in response to a given sentence as input, run the following, specifying:
-* * The input sentence to test the model's output for
-* * The location of the weights file you want to use relative to the working directory:
+To test the model's output in response to a given sentence as input, run the following, specifying:
+* The input sentence to test the model's output for
+* The location of the weights file you want to use relative to the working directory:
 (`data/weights-2.hdf5` is the recommended value for the `path_to_weights_file` parameter)
 ```
 python individual_test.py 'input_sentence' 'path_to_weights_file'
