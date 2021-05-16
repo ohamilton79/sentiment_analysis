@@ -37,6 +37,7 @@ python individual_test.py 'input_sentence' 'path_to_weights_file'
 ```
 
 ## Examples
+A value close to 1 indicates a very positive review, whereas a value close to 0 indicates a very negative review.
 ```python
 >>> python individual_test.py 'This movie is appalling. Waste of 2 hours of my life!' 'data/weights-2.hdf5'
 Predicted: [[0.04231749]]
